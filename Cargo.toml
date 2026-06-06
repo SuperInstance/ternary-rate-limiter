@@ -1,0 +1,7 @@
+[package]
+name = "ternary-rate-limiter"
+version = "0.1.0"
+edition = "2021"
+description = "Rate limiter for GPU kernel submissions with ternary feedback. Too fast = -1 (throttle), normal = 0, room available = +1 (speed up). Token bucket with ternary signals."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/ternary-rate-limiter"
